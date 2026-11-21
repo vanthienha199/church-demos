@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Northlight Church · Orlando + Lake Nona</title>
+<meta name="description" content="Northlight Church is one church meeting in Orlando and Lake Nona. Sundays 9, 10:30 and 12 in Orlando, 10:00 in Lake Nona. Students Wednesdays 7 PM.">
+<meta name="theme-color" content="#1a1c17">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231a1c17'/%3E%3Cpath d='M16 3l3 10 10 3-10 3-3 10-3-10-10-3 10-3z' fill='%23c8ff2e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-poster.webp" type="image/webp">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg class="grain" aria-hidden="true"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>
+
+<header class="top" id="top">
+  <a class="logo" href="#main" aria-label="Northlight Church home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 1l3.4 11.6L31 16l-11.6 3.4L16 31l-3.4-11.6L1 16l11.6-3.4z"/></svg>
+    <span>NORTHLIGHT</span>
+  </a>
+  <nav class="links" aria-label="Main">
+    <a href="#visit">Visit</a>
+    <a href="#watch">Watch</a>
+    <a href="#ministries">Ministries</a>
+    <a href="#events">Events</a>
+    <a href="#about">About</a>
+  </nav>
+  <a class="live" href="#watch" id="liveChip" aria-live="off"><i></i><span class="live-lbl">Live in</span> <b id="liveT">--</b></a>
+  <div class="acts">
+    <button class="btn ghost sm" data-give>Give</button>
+    <a class="btn lime sm" href="#visit">Plan a Visit</a>
+  </div>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Mobile">
+    <a href="#visit" style="--i:0">Visit</a>
+    <a href="#watch" style="--i:1">Watch</a>
+    <a href="#ministries" style="--i:2">Ministries</a>
+    <a href="#events" style="--i:3">Events</a>
+    <a href="#about" style="--i:4">About</a>
+    <a href="#prayer" style="--i:5">Prayer</a>
+    <a href="#locations" style="--i:6">Locations</a>
+  </nav>
+  <div class="menu-acts">
+    <a class="btn lime" href="#visit">Plan a Visit</a>
+    <button class="btn ghost" data-give>Give</button>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="heroH">
+  <video class="hero-vid" id="heroVid" muted loop playsinline preload="none" poster="img/hero-poster.webp" data-src="video/hero.mp4" aria-hidden="true"></video>
+  <div class="hero-shade"></div>
+  <div class="hero-in wrap">
+    <p class="eyebrow kin-up" style="--i:0">One church · Orlando + Lake Nona</p>
+    <h1 id="heroH" class="mega kin">
+      <span class="ln"><span style="--i:0">Come as</span></span>
+      <span class="ln"><span style="--i:1">you are.</span></span>
+    </h1>
+    <div class="hero-bar kin-up" style="--i:3">
+      <div class="campus-switch" role="group" aria-label="Choose a campus">
+        <button data-campus="orlando" aria-pressed="true">Orlando</button>
+        <button data-campus="nona" aria-pressed="false">Lake Nona</button>
+      </div>
+      <div class="hb-info">
+        <p class="hb-k">Sundays</p>
+        <p class="hb-times swap" data-c="times">9:00 · 10:30 · 12:00</p>
+        <p class="hb-addr swap" data-c="address">1800 N Mills Ave, Orlando, FL 32803</p>
+      </div>
+      <div class="hb-btns">
+        <a class="btn lime" href="#visit">Plan a Visit</a>
+        <button class="btn ghost" data-give>Give</button>
+      </div>
+    </div>
+  </div>
+  <a class="sticker" href="#ministries" data-open="students">Students<br><b>Wed 7 PM</b></a>
+  <button class="vid-toggle" id="vidToggle" aria-label="Pause background video" aria-pressed="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pause" d="M7 5h3v14H7zM14 5h3v14h-3z"/><path class="i-play" d="M8 5l11 7-11 7z"/></svg>
+  </button>
+</section>
+
+<section class="stats" aria-label="Northlight by the numbers">
+  <div class="wrap stats-in">
+    <div><b data-count="3200">3,200</b><span>people on an average Sunday</span></div>
+    <div><b data-count="140">140</b><span>life groups meeting in homes</span></div>
+    <div><b data-count="4">4</b><span>services every weekend</span></div>
+    <div><b data-count="2">2</b><span>campuses, one church</span></div>
+  </div>
+</section>
+
+<section class="series wrap" aria-labelledby="seriesH">
+  <div class="series-art" aria-hidden="true">
+    <img src="img/band.webp" alt="" loading="lazy" width="1400" height="934">
+    <div class="sa-type"><span>UN</span><span>SHA</span><span>KEN</span></div>
+    <p class="sa-ref">Hebrews 12</p>
+  </div>
+  <div class="series-copy">
+    <p class="eyebrow">Current series</p>
+    <h2 id="seriesH" class="big kin"><span class="ln"><span>Unshaken</span></span></h2>
+    <p class="lead">Six weeks in Hebrews 12 about the kind of faith that holds when your job, your plans and your group chat all fall apart.</p>
+    <div class="prog" role="img" aria-label="Week 3 of 6">
+      <i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i>
+    </div>
+    <p class="prog-lbl">Week 3 of 6 · This Sunday: <b>A Kingdom That Can't Be Moved</b></p>
+    <div class="row">
+      <a class="btn white" href="#watch">Watch week 3</a>
+      <a class="btn ghost" href="#visit">Be there Sunday</a>
+    </div>
+  </div>
+</section>
+
+<section class="watch" id="watch" aria-labelledby="watchH">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="watchH" class="big kin"><span class="ln"><span>Watch</span></span><span class="ln"><span>anywhere.</span></span></h2>
+      <div class="cd" aria-live="off">
+        <p class="cd-k" id="cdLabel">Next live stream · Sunday 9:00 AM ET</p>
+        <div class="cd-boxes" id="cdBoxes">
+          <div><b data-u="d">0</b><span>days</span></div>
+          <div><b data-u="h">00</b><span>hrs</span></div>
+          <div><b data-u="m">00</b><span>min</span></div>
+          <div><b data-u="s">00</b><span>sec</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="wgrid">
+      <div>
+        <div class="player" id="player">
+          <div class="amb" id="amb"></div>
+          <button class="poster" id="poster">
+            <span class="sr">Play message: </span>
+            <img src="img/sermon.webp" alt="" width="900" height="1350" loading="lazy">
+            <span class="po-type"><small id="poSeries">UNSHAKEN · WK 3</small><span id="poTitle">A Kingdom That Can't Be Moved</span></span>
+            <span class="po-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg></span>
+            <span class="po-dur" id="poDur">41:12</span>
+          </button>
+          <video id="pv" playsinline muted loop preload="none" controls hidden></video>
+          <canvas class="static" id="pst" width="320" height="180" aria-hidden="true"></canvas>
+          <div class="osd" id="osd" aria-hidden="true"></div>
+          <p class="demo-note" id="demoNote" hidden>Demo footage. Your sermon video or YouTube embed plays here.</p>
+        </div>
+        <div class="vmeta">
+          <h3 id="vTitle">A Kingdom That Can't Be Moved</h3>
+          <div class="chrow">
+            <span class="av" aria-hidden="true">N</span>
+            <p class="nm"><span id="vSpk">Marcus Reed</span><small id="vDate">Nov 15, 2026 · Orlando campus</small></p>
+            <a class="pill" href="#" aria-label="Notes for this message (demo)">Notes</a>
+            <a class="pill" href="#" aria-label="Listen on podcast (demo)">Podcast</a>
+          </div>
+        </div>
+      </div>
+      <div class="upnext" id="upnext" aria-label="Recent messages"></div>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit" aria-labelledby="visitH">
+  <div class="wrap">
+    <div class="visit-top">
+      <h2 id="visitH" class="mega2 kin"><span class="ln"><span>First</span></span><span class="ln"><span>Sunday?</span></span></h2>
+      <div class="visit-intro">
+        <p class="lead">Tell us you're coming and someone will meet you at the door, walk your kids to check-in and save you a seat. No sign-up sheets, no standing up to introduce yourself.</p>
+        <div class="campus-switch" role="group" aria-label="Choose a campus">
+          <button data-campus="orlando" aria-pressed="true">Orlando</button>
+          <button data-campus="nona" aria-pressed="false">Lake Nona</button>
+        </div>
+      </div>
+    </div>
+    <div class="expect">
+      <figure class="ex-photo">
+        <img src="img/welcome.webp" alt="Two smiling volunteers wearing name tags" loading="lazy" width="1200" height="800">
+        <figcaption>Look for the name tags. These are your people.</figcaption>
+      </figure>
+      <div class="ex-grid">
+        <article><span class="ex-n" aria-hidden="true">01</span><h3>Parking</h3><p class="swap" data-c="parking">Guest spots are in the front row off Mills Ave. Turn on your hazards and a parking volunteer will wave you in.</p></article>
+        <article><span class="ex-n" aria-hidden="true">02</span><h3>Kids check-in</h3><p>Birth to 5th grade. Arrive 10 minutes early, check in at the Kids desk, and you get a matching tag for pickup.</p></article>
+        <article><span class="ex-n" aria-hidden="true">03</span><h3>How long</h3><p>About 75 minutes. Around 25 minutes of music, a 35 minute message, then coffee on the patio.</p></article>
+        <article><span class="ex-n" aria-hidden="true">04</span><h3>What to wear</h3><p>Whatever you'd wear to grab coffee. Shorts and sneakers are normal. This is Florida.</p></article>
+      </div>
+    </div>
+
+    <form class="newform" id="visitForm" novalidate>
+      <div class="nf-head">
+        <h3>I'm new</h3>
+        <p>Takes 20 seconds. We only use this to welcome you.</p>
+      </div>
+      <div class="nf-fields">
+        <label class="fld"><span>Name</span><input name="name" autocomplete="name" required></label>
+        <label class="fld"><span>Email</span><input name="email" type="email" autocomplete="email" required></label>
+        <label class="fld"><span>Campus</span>
+          <select name="campus" id="nfCampus"><option value="orlando">Orlando</option><option value="nona">Lake Nona</option></select>
+        </label>
+        <label class="fld"><span>Visit date</span><select name="date" id="nfDate"></select></label>
+        <label class="fld"><span>Service</span><select name="time" id="nfTime"></select></label>
+        <fieldset class="fld kids">
+          <legend>Bringing kids?</legend>
+          <div class="seg">
+            <label><input type="radio" name="kids" value="yes"><span>Yes</span></label>
+            <label><input type="radio" name="kids" value="no" checked><span>No</span></label>
+          </div>
+        </fieldset>
+      </div>
+      <p class="err" id="visitErr" role="alert"></p>
+      <button class="btn lime big-btn" type="submit">Save me a seat</button>
+      <div class="thanks" id="visitThanks" hidden tabindex="-1">
+        <p class="th-big">See you Sunday, <span id="thName">friend</span>.</p>
+        <p id="thLine">We'll email you directions and a parking map.</p>
+        <button type="button" class="btn ghost sm" id="visitReset">Plan another visit</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="ministries" id="ministries" aria-labelledby="minH">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="minH" class="big kin"><span class="ln"><span>Find your</span></span><span class="ln"><span>people.</span></span></h2>
+      <p class="lead">Sundays are the front door. These are the rooms where people actually get to know you.</p>
+    </div>
+    <ul class="mlist" id="mlist">
+      <li data-m="kids">
+        <button class="mrow" aria-expanded="false"><span class="m-n">01</span><span class="m-t">Kids</span><span class="m-s">Birth to 5th · every service</span><span class="m-x" aria-hidden="true"></span></button>
+        <div class="mbody"><div class="mb-in"><img src="img/kids.webp" alt="Kids watching a Sunday kids service" loading="lazy" width="1200" height="800"><div><p>Safe, loud and fun. Secure check-in, background-checked leaders, and a Bible story your kid will retell at lunch.</p><a class="tlink" href="#visit">Pre-register your kids</a></div></div></div>
+      </li>
+      <li data-m="students">
+        <button class="mrow" aria-expanded="false"><span class="m-n">02</span><span class="m-t">Students</span><span class="m-s">6th to 12th · Wed 7 PM</span><span class="m-x" aria-hidden="true"></span></button>
+        <div class="mbody"><div class="mb-in"><img src="img/students.webp" alt="Teenagers sharing pizza and talking" loading="lazy" width="1200" height="800"><div><p>Wednesdays at 7 PM at the Orlando campus. Games, worship, a short talk, then small groups by grade. Pizza is not optional.</p><a class="tlink" href="#events">Winter retreat is open</a></div></div></div>
+      </li>
+      <li data-m="groups">
+        <button class="mrow" aria-expanded="false"><span class="m-n">03</span><span class="m-t">Life Groups</span><span class="m-s">140 groups · weeknights</span><span class="m-x" aria-hidden="true"></span></button>
+        <div class="mbody"><div class="mb-in"><img src="img/groups.webp" alt="Friends sharing dinner around a table" loading="lazy" width="1200" height="800"><div><p>140 groups meeting in homes across Orlando, Winter Park and Lake Nona. Dinner, an honest conversation, and people who notice when you're missing.</p><a class="tlink" href="#visit">Find a group near you</a></div></div></div>
+      </li>
+      <li data-m="women">
+        <button class="mrow" aria-expanded="false"><span class="m-n">04</span><span class="m-t">Women</span><span class="m-s">Tue nights · monthly brunch</span><span class="m-x" aria-hidden="true"></span></button>
+        <div class="mbody"><div class="mb-in"><img src="img/women.webp" alt="Three women talking on a couch" loading="lazy" width="1200" height="800"><div><p>A Tuesday night study at both campuses and a brunch on the first Saturday of the month. College students to grandmothers, same table.</p><a class="tlink" href="#events">See what's next</a></div></div></div>
+      </li>
+      <li data-m="men">
+        <button class="mrow" aria-expanded="false"><span class="m-n">05</span><span class="m-t">Men</span><span class="m-s">Sat 7 AM · quarterly trips</span><span class="m-x" aria-hidden="true"></span></button>
+        <div class="mbody"><div class="mb-in"><img src="img/men.webp" alt="Two men hiking in a forest" loading="lazy" width="1200" height="800"><div><p>Saturday breakfast at 7 AM at both campuses, plus a hike or camping trip every quarter. Bring an appetite and a question you've been sitting on.</p><a class="tlink" href="#events">Next trip</a></div></div></div>
+      </li>
+    </ul>
+  </div>
+  <img class="m-float" id="mFloat" alt="" aria-hidden="true">
+</section>
+
+<section class="events" id="events" aria-labelledby="evH">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="evH" class="big kin"><span class="ln"><span>Coming up</span></span></h2>
+      <a class="tlink" href="#events">All events</a>
+    </div>
+    <div class="ev-rail">
+      <article class="ev">
+        <div class="ev-img"><img src="img/ev-serve.webp" alt="Volunteers packing food boxes" loading="lazy" width="900" height="600"><time class="ev-date" datetime="2026-11-28"><b>28</b>Nov</time></div>
+        <p class="ev-k">Sat · 8 AM · Orlando campus</p>
+        <h3>Serve Orlando: Thanksgiving Meal Drive</h3>
+        <p>Pack 1,500 meal boxes with the Orlando Food Collective. Ages 8 and up.</p>
+      </article>
+      <article class="ev">
+        <div class="ev-img"><img src="img/ev-worship.webp" alt="Worship night with stage lights and crowd" loading="lazy" width="900" height="600"><time class="ev-date" datetime="2026-12-04"><b>04</b>Dec</time></div>
+        <p class="ev-k">Fri · 7 PM · Orlando campus</p>
+        <h3>Night of Worship</h3>
+        <p>Both campuses, one room, two hours of singing. Childcare for ages 0 to 5.</p>
+      </article>
+      <article class="ev">
+        <div class="ev-img"><img src="img/ev-band.webp" alt="Band leading worship in front of a cross" loading="lazy" width="900" height="600"><time class="ev-date" datetime="2026-12-19"><b>19</b>Dec</time></div>
+        <p class="ev-k">Dec 19 to 24 · Both campuses</p>
+        <h3>Christmas at Northlight</h3>
+        <p>Eleven services, candles, a kids choir that will make you cry. Invite someone.</p>
+      </article>
+      <article class="ev">
+        <div class="ev-img"><img src="img/ev-retreat.webp" alt="Silhouettes of students celebrating at sunset by a lake" loading="lazy" width="900" height="600"><time class="ev-date" datetime="2027-01-15"><b>15</b>Jan</time></div>
+        <p class="ev-k">Jan 15 to 17 · Lake Louisa</p>
+        <h3>Students Winter Retreat</h3>
+        <p>Three days, two nights, one lake. $149 includes cabins, meals and a hoodie.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="give" id="give" aria-labelledby="giveH">
+  <div class="wrap give-in">
+    <h2 id="giveH" class="mega2 kin"><span class="ln"><span>Generosity</span></span><span class="ln"><span>is worship.</span></span></h2>
+    <div class="give-side">
+      <p class="lead">Last year your giving packed 41,000 meals, sent 12 teams overseas and opened the Lake Nona campus without debt.</p>
+      <button class="btn lime big-btn" data-give>Give online</button>
+      <ul class="give-ways">
+        <li><b>Text to give</b><span>Text <strong>NORTHLIGHT</strong> to (407) 555-0142</span></li>
+        <li><b>Northlight app</b><span>Give, check in kids and watch live from one app</span></li>
+        <li><b>In person</b><span>Giving boxes at every exit, both campuses</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about" aria-labelledby="aboutH">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="aboutH" class="big kin"><span class="ln"><span>What we</span></span><span class="ln"><span>believe</span></span></h2>
+      <p class="lead">The short version. Ask any of us for the long one over coffee.</p>
+    </div>
+    <ol class="beliefs">
+      <li><h3>God</h3><p>One God, Father, Son and Holy Spirit, who made everything and is good.</p></li>
+      <li><h3>Jesus</h3><p>Fully God and fully human. He died for our sin and rose from the dead.</p></li>
+      <li><h3>Grace</h3><p>Salvation is a gift received by faith in Jesus, not something we earn.</p></li>
+      <li><h3>The Bible</h3><p>God's inspired word and our final authority for faith and life.</p></li>
+      <li><h3>The Spirit</h3><p>The Holy Spirit lives in every believer and gives gifts to build the church.</p></li>
+      <li><h3>The Church</h3><p>Not a building. People who follow Jesus together and serve their city.</p></li>
+    </ol>
+
+    <div class="sec-head staff-head">
+      <h2 class="big kin"><span class="ln"><span>Our team</span></span></h2>
+    </div>
+    <div class="staff">
+      <figure><img src="img/staff-1.webp" alt="Marcus Reed" loading="lazy" width="520" height="520"><figcaption><b>Marcus Reed</b><span>Lead Pastor</span></figcaption></figure>
+      <figure><img src="img/staff-3.webp" alt="Dev Raman" loading="lazy" width="520" height="520"><figcaption><b>Dev Raman</b><span>Lake Nona Campus Pastor</span></figcaption></figure>
+      <figure><img src="img/staff-6.webp" alt="Vy Nguyen" loading="lazy" width="520" height="520"><figcaption><b>Vy Nguyen</b><span>Worship Leader</span></figcaption></figure>
+      <figure><img src="img/staff-2.webp" alt="Jordan Okafor" loading="lazy" width="520" height="520"><figcaption><b>Jordan Okafor</b><span>Students Pastor</span></figcaption></figure>
+      <figure><img src="img/staff-4.webp" alt="Linh Tran" loading="lazy" width="520" height="520"><figcaption><b>Linh Tran</b><span>Kids Director</span></figcaption></figure>
+      <figure><img src="img/staff-5.webp" alt="Sara Haddad" loading="lazy" width="520" height="520"><figcaption><b>Sara Haddad</b><span>Life Groups Director</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="prayer" id="prayer" aria-labelledby="prH">
+  <div class="wrap prayer-in">
+    <div>
+      <h2 id="prH" class="big kin"><span class="ln"><span>Can we</span></span><span class="ln"><span>pray for you?</span></span></h2>
+      <p class="lead">Our prayer team reads every request by name within 24 hours. Mark it private and only the pastors see it.</p>
+    </div>
+    <form class="prform" id="prayerForm" novalidate>
+      <label class="fld"><span>First name <em>(optional)</em></span><input name="name" autocomplete="given-name"></label>
+      <label class="fld"><span>Email <em>(optional, if you want a reply)</em></span><input name="email" type="email" autocomplete="email"></label>
+      <label class="fld"><span>How can we pray?</span><textarea name="req" rows="4" required></textarea></label>
+      <label class="check"><input type="checkbox" name="private"><span>Keep this private (pastors only)</span></label>
+      <p class="err" id="prErr" role="alert"></p>
+      <button class="btn lime" type="submit">Send request</button>
+      <div class="thanks" id="prThanks" hidden tabindex="-1">
+        <p class="th-big">We've got you.</p>
+        <p>Your request is with the prayer team. You are not carrying this alone.</p>
+        <button type="button" class="btn ghost sm" id="prReset">Send another</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="locations" id="locations" aria-labelledby="locH">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="locH" class="big kin"><span class="ln"><span>Two campuses.</span></span><span class="ln"><span>One church.</span></span></h2>
+      <div class="campus-switch" role="group" aria-label="Choose a campus">
+        <button data-campus="orlando" aria-pressed="true">Orlando</button>
+        <button data-campus="nona" aria-pressed="false">Lake Nona</button>
+      </div>
+    </div>
+    <div class="loc">
+      <div class="map">
+        <img id="mapImg" src="img/map-orlando.webp" alt="Map of the Orlando campus area" loading="lazy" width="1200" height="750">
+        <span class="pin" aria-hidden="true"><i></i></span>
+        <p class="map-cr">Map © OpenStreetMap contributors</p>
+      </div>
+      <div class="loc-card">
+        <p class="eyebrow swap" data-c="name">Orlando campus</p>
+        <p class="loc-addr swap" data-c="address">1800 N Mills Ave, Orlando, FL 32803</p>
+        <dl class="loc-times swap" data-c="schedule"></dl>
+        <a class="btn white" id="dirLink" href="https://www.google.com/maps/search/?api=1&query=28.5530,-81.3650" target="_blank" rel="noopener">Get directions</a>
+        <p class="loc-note">Office: Mon to Thu, 9 AM to 4 PM · (407) 555-0100</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-ha" id="contact-ha" aria-labelledby="haH">
+  <div class="wrap">
+    <div class="ha-card">
+      <p class="eyebrow">About this demo</p>
+      <h2 id="haH">Want this for your church?</h2>
+      <p>Northlight Church is fictional. This site is a design demo by Ha Le: campus switcher, live countdown, sermon player, Tithely-style giving and visitor forms, all ready to connect to your real info.</p>
+      <a class="btn white" href="mailto:halevanthien@gmail.com?subject=Church%20website">Email halevanthien@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-mega" data-t="NORTHLIGHT" aria-hidden="true"></p>
+    <div class="foot-grid">
+      <div>
+        <p class="f-k">Orlando</p>
+        <p>1800 N Mills Ave<br>Sundays 9:00, 10:30, 12:00<br>Students Wed 7 PM</p>
+      </div>
+      <div>
+        <p class="f-k">Lake Nona</p>
+        <p>6900 Tavistock Lakes Blvd<br>Sundays 10:00</p>
+      </div>
+      <div>
+        <p class="f-k">Explore</p>
+        <p class="f-links"><a href="#visit">Plan a Visit</a><a href="#watch">Watch</a><a href="#ministries">Ministries</a><a href="#prayer">Prayer</a><a href="#give">Give</a></p>
+      </div>
+      <div>
+        <p class="f-k">Follow</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram (demo)"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="f"/></svg></a>
+          <a href="#" aria-label="YouTube (demo)"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" class="f"/></svg></a>
+          <a href="#" aria-label="TikTok (demo)"><svg viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.5 2.5 2.3 4.2 5 4.5"/></svg></a>
+          <a href="#" aria-label="Facebook (demo)"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="#" aria-label="Spotify podcast (demo)"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M7 9.5c3.5-1 7-.6 10 1M7.5 12.8c3-.8 5.8-.4 8.2.9M8 15.8c2.3-.5 4.4-.3 6.3.7"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <p>© 2026 Northlight Church. A fictional church made for a website demo.</p>
+      <p>Photos and video from Pexels (see CREDITS.md). Map © OpenStreetMap contributors.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="ribbon" id="ribbon" href="#contact-ha">Demo by Ha Le<span class="rb-long"> · <u>get a site like this</u></span></a>
+
+<dialog class="give-modal" id="giveModal" aria-labelledby="gmH">
+  <form method="dialog" class="gm" id="giveForm" novalidate>
+    <div class="gm-head">
+      <div class="gm-org"><span class="gm-logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 1l3.4 11.6L31 16l-11.6 3.4L16 31l-3.4-11.6L1 16l11.6-3.4z"/></svg></span><div><p id="gmH">Give to Northlight Church</p><small>Orlando, FL</small></div></div>
+      <button type="button" class="gm-x" id="gmClose" aria-label="Close giving form">×</button>
+    </div>
+    <div class="gm-body" id="gmStep1">
+      <label class="gm-amt"><span class="sr">Amount in US dollars</span><b>$</b><input id="gmAmt" inputmode="decimal" size="4" value="50" aria-describedby="gmErr"></label>
+      <div class="gm-chips" role="group" aria-label="Quick amounts">
+        <button type="button" data-amt="25">$25</button><button type="button" data-amt="50" aria-pressed="true">$50</button><button type="button" data-amt="100">$100</button><button type="button" data-amt="250">$250</button>
+      </div>
+      <label class="gm-fld"><span>Fund</span>
+        <select id="gmFund"><option>General Fund</option><option>Missions</option><option>Building Fund</option></select>
+      </label>
+      <div class="gm-fld"><span id="gmFreqL">Frequency</span>
+        <div class="gm-seg" role="radiogroup" aria-labelledby="gmFreqL">
+          <label><input type="radio" name="freq" value="One time" checked><span>One time</span></label>
+          <label><input type="radio" name="freq" value="Weekly"><span>Weekly</span></label>
+          <label><input type="radio" name="freq" value="Monthly"><span>Monthly</span></label>
+        </div>
+      </div>
+      <label class="gm-check"><input type="checkbox" id="gmFees"><span>Cover the processing fee (<b id="gmFee">$1.75</b>) so 100% goes to Northlight</span></label>
+      <p class="gm-err" id="gmErr" role="alert"></p>
+      <button type="button" class="gm-go" id="gmGo">Give <span id="gmTotal">$50.00</span></button>
+      <p class="gm-alt">Prefer text? Send <b>NORTHLIGHT 50</b> to (407) 555-0142</p>
+    </div>
+    <div class="gm-body gm-done" id="gmStep2" hidden tabindex="-1">
+      <div class="gm-tick" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <p class="gm-ty">Thank you!</p>
+      <p id="gmSummary">$50.00 to General Fund, one time.</p>
+      <p class="gm-demo">Demo only. No payment was processed.</p>
+      <button type="button" class="gm-go" id="gmAgain">Done</button>
+    </div>
+    <p class="gm-foot"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg> Secure giving powered by Tithely</p>
+  </form>
+</dialog>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Church Website Designs by Ha Le</title>
+<meta name="description" content="Three church website designs: warm, bold and traditional. Plan a Visit, sermons, events and Tithely giving built in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5efe6;--ink:#211c18;--muted:#5d544b;--line:#e2d8ca;--card:#fffaf3;--accent:#b4532a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Instrument Sans",system-ui,sans-serif;padding:48px max(16px,env(safe-area-inset-left)) 64px max(16px,env(safe-area-inset-right))}
+main{max-width:1120px;margin:0 auto}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
+h1{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:clamp(40px,7vw,80px);line-height:1.02;letter-spacing:-.02em;margin:0 0 24px;text-wrap:balance}
+h1 em{color:var(--accent)}
+.lede{max-width:62ch;color:var(--muted);margin:0 0 48px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+a.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .18s ease-out,box-shadow .18s ease-out}
+a.card:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(0,0,0,.06),0 18px 40px rgba(60,40,20,.14)}
+a.card:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;display:block;border-bottom:1px solid var(--line)}
+.body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:6px;flex:1}
+.body h2{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:26px;margin:0}
+.tag{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.body p{margin:0;color:var(--muted);font-size:16px}
+.go{margin-top:auto;padding-top:12px;font-weight:600}
+.includes{margin:56px 0 0;padding:28px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.includes h3{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:24px;margin:0 0 12px}
+.includes ul{margin:0;padding-left:20px;columns:2 260px;color:var(--muted)}
+.contact{margin-top:32px;font-size:18px}
+.contact b{user-select:all}
+@media (prefers-reduced-motion:reduce){a.card{transition:none}a.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<main>
+<p class="kicker">Church websites by Ha Le</p>
+<h1>A website your church <em>family</em> will actually use.</h1>
+<p class="lede">Three finished designs you can click through right now. Each one shows service times and your address on the first screen, a Plan a Visit page for newcomers, sermons with a live countdown, events, prayer requests and Tithely giving in one click. The churches are fictional; your site gets your name, photos and words.</p>
+<div class="grid">
+  <a class="card" href="grace/"><img src="previews/grace.jpg" alt="Grace Harbor Church demo, warm cream design with photos of people hugging" loading="lazy"><div class="body"><span class="tag">Warm and welcoming</span><h2>Grace Harbor</h2><p>For small and medium churches. Cream paper, real faces, a family feel.</p><span class="go">Open the demo &rarr;</span></div></a>
+  <a class="card" href="bold/"><img src="previews/bold.jpg" alt="Northlight Church demo, dark design with a worship video and huge headline" loading="lazy"><div class="body"><span class="tag">Bold and modern</span><h2>Northlight</h2><p>For growing, multi-campus churches. Worship video, campus switcher, live countdown.</p><span class="go">Open the demo &rarr;</span></div></a>
+  <a class="card" href="heritage/"><img src="previews/heritage.jpg" alt="St. Andrew's Fellowship Church demo, green and gold traditional design with a sanctuary photo" loading="lazy"><div class="body"><span class="tag">Traditional and reverent</span><h2>St. Andrew's</h2><p>For established congregations. Order of worship, history timeline, large text option.</p><span class="go">Open the demo &rarr;</span></div></a>
+</div>
+<section class="includes">
+<h3>Every site includes</h3>
+<ul>
+<li>Service times and address on the first screen</li>
+<li>Plan a Visit page with a newcomer form</li>
+<li>Sermons with a next live stream countdown</li>
+<li>Tithely giving popup on every page</li>
+<li>Events, ministries and prayer requests</li>
+<li>Staff, beliefs and a map</li>
+<li>Fast on phones, easy to read</li>
+<li>Your own domain and email setup</li>
+</ul>
+</section>
+<p class="contact">Want one for your church? Email <b>halevanthien@gmail.com</b></p>
+</main>
+</body>
+</html>
