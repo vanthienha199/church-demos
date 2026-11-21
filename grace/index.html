@@ -2,29 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Grace Harbor Church | Orlando, FL</title>
 <meta name="description" content="Grace Harbor Church is a church family in College Park, Orlando. Sundays at 9:00 and 11:00 AM, Vietnamese service at 11:00 AM, Wednesday prayer at 7:00 PM.">
-<meta name="theme-color" content="#f3ebde">
+<meta name="theme-color" content="#0f172a">
 <meta property="og:title" content="Grace Harbor Church | Orlando, FL">
 <meta property="og:description" content="A church family in Orlando. Sundays 9:00 and 11:00 AM.">
-<meta property="og:image" content="img/hero-welcome.webp">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23b4532f'/%3E%3Cpath d='M9 26V15a7 7 0 0 1 14 0v11' fill='none' stroke='%23f5eee2' stroke-width='2.4'/%3E%3Cpath d='M16 12v9M12.5 15.5h7' stroke='%23f5eee2' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,350..650,0..100;1,9..144,350..650,0..100&family=Hanken+Grotesk:wght@400..700&display=swap">
-<link rel="preload" as="image" href="img/hero-welcome.webp">
+<meta property="og:image" content="img/hero-1600.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233a6bd0'/%3E%3Cpath d='M9 26V15a7 7 0 0 1 14 0v11' fill='none' stroke='%23fff' stroke-width='2.6'/%3E%3Cpath d='M16 11.5v9.5M12.5 15h7' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" as="font" type="font/woff2" href="fonts/plus-jakarta-sans-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/open-sans-latin.woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1000.webp 1000w, img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <link rel="stylesheet" href="css/site.css">
-<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="site-head" id="top">
   <div class="head-in">
-    <a class="brand" href="#top" aria-label="Grace Harbor Church, home">
-      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="currentColor"/><path d="M11.5 32V19a8.5 8.5 0 0 1 17 0v13" fill="none" stroke="var(--paper)" stroke-width="2.6"/><path d="M20 15v11M15.8 19.4h8.4" stroke="var(--paper)" stroke-width="2.6" stroke-linecap="round"/></svg>
-      <span class="brand-txt"><b>Grace Harbor</b><small>Church · Orlando</small></span>
+    <a class="brand" href="#top" aria-label="Grace Harbor Church, back to top">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--brand)"/><path d="M11.5 32V19a8.5 8.5 0 0 1 17 0v13" fill="none" stroke="#fff" stroke-width="3"/><path d="M20 14.5v11M15.6 19h8.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>
+      <span class="brand-txt">Grace Harbor<small>Church</small></span>
     </a>
     <nav class="main-nav" aria-label="Main">
       <a href="#visit">Sundays</a>
@@ -33,28 +31,31 @@
       <a href="#events">Events</a>
     </nav>
     <div class="head-actions">
-      <button class="btn btn-ghost btn-sm" type="button" data-give>Give</button>
-      <a class="btn btn-accent btn-sm" href="#visit">Plan a Visit</a>
-      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-lines" aria-hidden="true"></span><span class="menu-label">Menu</span></button>
+      <button class="btn btn-sm btn-quiet head-give" type="button" data-give>Give</button>
+      <a class="btn btn-sm btn-brand" href="#visit">Plan a Visit</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span class="menu-lines" aria-hidden="true"></span></button>
     </div>
   </div>
   <div class="menu" id="menu" hidden>
     <div class="menu-in">
-      <ul class="menu-list">
-        <li><a href="#visit">Plan a Visit</a></li>
-        <li><a href="#watch">Watch</a></li>
-        <li><a href="#ministries">Ministries</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#give">Give</a></li>
-        <li><a href="#prayer">Prayer</a></li>
-        <li><a href="#beliefs">Beliefs</a></li>
-        <li><a href="#staff">Our Team</a></li>
-        <li><a href="#location">Location</a></li>
-      </ul>
+      <nav aria-label="All pages">
+        <ul class="menu-list">
+          <li><a href="#visit">Plan a Visit</a></li>
+          <li><a href="#watch">Watch</a></li>
+          <li><a href="#ministries">Ministries</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#give">Give</a></li>
+          <li><a href="#prayer">Prayer</a></li>
+          <li><a href="#beliefs">Beliefs</a></li>
+          <li><a href="#staff">Our Team</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
       <div class="menu-side">
-        <p class="eyebrow">This Sunday</p>
-        <p class="menu-times">9:00 AM &amp; 11:00 AM<br><span>Vietnamese service 11:00 AM</span></p>
-        <p class="menu-addr">2216 Edgewater Drive<br>Orlando, FL 32804</p>
+        <p class="eyebrow">Sundays</p>
+        <p class="menu-times">9:00 AM &amp; 11:00 AM</p>
+        <p>Vietnamese service 11:00 AM<br>2216 Edgewater Drive, Orlando, FL 32804</p>
+        <button class="btn btn-brand menu-give" type="button" data-give>Give online</button>
       </div>
     </div>
   </div>
@@ -64,127 +65,124 @@
 
 <!-- HERO -->
 <section class="hero" aria-labelledby="hero-title">
-  <div class="hero-copy">
-    <p class="eyebrow"><span class="long">Grace Harbor Church · </span>College Park, Orlando</p>
-    <h1 id="hero-title" class="display">A church <em class="swash">family<svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16c40-9 92-12 146-9s96 6 146-2"/></svg></em> in&nbsp;Orlando.</h1>
-    <p class="lede">Neighbors, students, grandparents and kids learning to follow Jesus together, a few blocks from Lake Adair. Come as you are. We would love to meet you.</p>
-    <a class="chip" href="#location">
-      <span class="chip-col">
-        <span class="chip-k">Sundays</span>
-        <span class="chip-v">9:00 &amp; 11:00 AM</span>
-        <span class="chip-s">Vietnamese service 11:00 AM</span>
-      </span>
-      <span class="chip-rule" aria-hidden="true"></span>
-      <span class="chip-col">
-        <span class="chip-k">Find us</span>
-        <span class="chip-v">2216 Edgewater Dr</span>
-        <span class="chip-s">Orlando, FL 32804</span>
-      </span>
-      <span class="chip-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span>
-    </a>
+  <img class="hero-img" src="img/hero-1600.webp" srcset="img/hero-1000.webp 1000w, img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Families greeting each other in the church lobby before a Sunday service" fetchpriority="high">
+  <div class="hero-in wrap">
+    <p class="eyebrow eyebrow-light">College Park, Orlando</p>
+    <h1 id="hero-title">A church family in Orlando<span class="stop">.</span></h1>
+    <p class="lede">Neighbors, students, grandparents and kids learning to follow Jesus together, a few blocks from Lake Adair. Come as you are.</p>
     <div class="hero-cta">
-      <a class="btn btn-accent" href="#visit">Plan a Visit</a>
-      <button class="btn btn-ghost" type="button" data-give>Give</button>
+      <a class="btn btn-brand btn-lg" href="#visit">Plan a Visit</a>
+      <button class="btn btn-outline-light btn-lg" type="button" data-give>Give</button>
     </div>
   </div>
-  <div class="hero-art" aria-hidden="false">
-    <figure class="pill pill-a reveal">
-      <img src="img/hero-welcome.webp" width="1400" height="933" alt="People greeting each other in a bright church lobby before a Sunday service" fetchpriority="high">
-    </figure>
-    <figure class="pill pill-b reveal" style="--d:.12s">
-      <img src="img/hero-hug.jpg" width="740" height="733" alt="Two women sharing a warm hug in the sanctuary">
-    </figure>
-    <figure class="pill pill-c reveal" style="--d:.24s">
-      <img src="img/kid-laugh.webp" width="700" height="467" alt="A little boy laughing on a bench with a picture Bible">
-    </figure>
-    <p class="hand" aria-hidden="true">that's Sunday<br>at 10:58</p>
+  <div class="infobar">
+    <div class="wrap infobar-in">
+      <div class="info">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <p><b>Sundays 9:00 &amp; 11:00 AM</b><span>Vietnamese service 11:00 AM</span></p>
+      </div>
+      <div class="info">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <p><b>2216 Edgewater Drive</b><span>Orlando, FL 32804</span></p>
+      </div>
+      <a class="info-link" href="#location">Directions &amp; parking <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+    </div>
   </div>
 </section>
 
 <!-- WELCOME -->
-<section class="welcome" aria-labelledby="welcome-title">
-  <div class="wrap welcome-in">
-    <h2 id="welcome-title" class="display h2">New around <em>here?</em></h2>
-    <div class="welcome-note">
-      <p>Visiting a church for the first time can feel like walking into someone else's family dinner. We remember that feeling. So we keep it simple: good coffee, honest songs, a message from the Bible you can actually use on Monday, and people who will learn your name.</p>
-      <p>Tell us you are coming and I will make sure someone is at the front door to show you around.</p>
-      <p class="sign">Pastor Daniel &amp; Mai Tran</p>
+<section class="section welcome" aria-labelledby="welcome-title">
+  <div class="wrap welcome-grid">
+    <div class="welcome-copy">
+      <p class="eyebrow">Welcome</p>
+      <h2 id="welcome-title" class="h2">New around here? We would love to meet you.</h2>
+      <p>Visiting a church for the first time can feel like walking into someone else's family dinner. We remember that feeling. So we keep it simple: good coffee, honest songs, a message from the Bible you can use on Monday, and people who will learn your name.</p>
+      <p>Tell us you are coming and someone will meet you at the front door and show you around.</p>
+      <p class="sign"><b>Pastor Daniel &amp; Mai Tran</b><span>Lead Pastor</span></p>
+      <a class="btn btn-brand" href="#new">Let us know you're coming</a>
     </div>
+    <figure class="welcome-photo">
+      <img src="img/hero-hug.webp" width="740" height="732" loading="lazy" alt="Two women sharing a warm hug in the sanctuary">
+    </figure>
   </div>
 </section>
 
 <!-- PLAN A VISIT -->
-<section class="visit section" id="visit" aria-labelledby="visit-title">
+<section class="section soft visit" id="visit" aria-labelledby="visit-title">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Plan a visit</p>
-      <h2 id="visit-title" class="display h2">We saved you a <em>seat.</em></h2>
+      <h2 id="visit-title" class="h2">What to expect on Sunday</h2>
     </div>
+    <ul class="expect">
+      <li class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 16V11l2-5h10l2 5v5"/><path d="M3 16h18v3H3z"/><circle cx="7.5" cy="13" r="1"/><circle cx="16.5" cy="13" r="1"/></svg>
+        <h3>Parking</h3>
+        <p>Free lot behind the building, entrance on Lake Adair Blvd. First-time guests get the reserved spots by the front doors.</p>
+      </li>
+      <li class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3>Kids check-in</h3>
+        <p>Come 10 minutes early to the Kids desk in the lobby. Secure name tags, and every volunteer is trained and background checked.</p>
+      </li>
+      <li class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <h3>How long</h3>
+        <p>About 75 minutes. Songs, a short prayer, a message from the Bible, then coffee and pastries in the courtyard.</p>
+      </li>
+      <li class="card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3l4 3 4-3 5 4-3 4-2-1v11H8V10l-2 1-3-4z"/></svg>
+        <h3>What to wear</h3>
+        <p>Whatever you are comfortable in. You will see Sunday dresses and you will see flip-flops. It is Florida.</p>
+      </li>
+    </ul>
+
     <div class="visit-grid">
-      <div class="visit-photo">
-        <figure class="arch reveal"><img src="img/doormat.webp" loading="lazy" width="760" height="1013" alt="A doormat that reads Come as you are"></figure>
-        <div class="times-card">
-          <p class="eyebrow">Sunday gatherings</p>
+      <div class="times-card card">
+        <img src="img/doormat-wide.webp" width="640" height="360" loading="lazy" alt="A doormat that reads Come as you are">
+        <div class="times-body">
+          <h3 class="h4">Service times</h3>
           <dl class="times">
-            <div><dt>9:00 AM</dt><dd>English service · Kids &amp; nursery</dd></div>
-            <div><dt>11:00 AM</dt><dd>English service · Kids &amp; nursery</dd></div>
-            <div><dt>11:00 AM</dt><dd>Vietnamese service in the Chapel</dd></div>
-            <div><dt>Wed 7:00 PM</dt><dd>Prayer night · Students</dd></div>
+            <div><dt>Sunday 9:00 AM</dt><dd>English service, kids and nursery</dd></div>
+            <div><dt>Sunday 11:00 AM</dt><dd>English service, kids and nursery</dd></div>
+            <div><dt>Sunday 11:00 AM</dt><dd>Vietnamese service in the Chapel</dd></div>
+            <div><dt>Wednesday 7:00 PM</dt><dd>Prayer night and Students</dd></div>
           </dl>
         </div>
       </div>
-      <div class="expect">
-        <ol class="expect-list">
-          <li>
-            <span class="num">01</span>
-            <div><h3>Parking</h3><p>Free lot behind the building, entrance on Lake Adair Blvd. First-time guests get the reserved spots by the front doors. Look for the clay-red signs.</p></div>
-          </li>
-          <li>
-            <span class="num">02</span>
-            <div><h3>Kids check-in</h3><p>Come 10 minutes early to the Kids desk in the lobby. Every child gets a secure name tag, and every volunteer is trained and background checked.</p></div>
-          </li>
-          <li>
-            <span class="num">03</span>
-            <div><h3>How long</h3><p>About 75 minutes. Songs, a short prayer, a message from the Bible, then coffee and pastries in the courtyard.</p></div>
-          </li>
-          <li>
-            <span class="num">04</span>
-            <div><h3>What to wear</h3><p>Whatever you are comfortable in. You will see Sunday dresses and you will see flip-flops. It is Florida.</p></div>
-          </li>
-        </ol>
 
-        <div class="form-card" id="new">
-          <form class="newform" novalidate>
-            <h3 class="display h3">I'm <em>new</em>, save me a seat</h3>
-            <p class="form-sub">We will meet you at the front door and walk you to kids check-in.</p>
-            <div class="row2">
-              <label class="field"><span>Your name</span><input name="name" autocomplete="name" required placeholder="First and last"></label>
-              <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" required placeholder="you@email.com"></label>
-            </div>
-            <div class="row2">
-              <label class="field"><span>Which Sunday?</span><select name="date" id="visit-date" required></select></label>
-              <label class="field"><span>Service</span>
-                <select name="service">
-                  <option>9:00 AM</option>
-                  <option>11:00 AM</option>
-                  <option>11:00 AM Vietnamese</option>
-                </select>
-              </label>
-            </div>
-            <fieldset class="kids">
-              <legend>Bringing kids?</legend>
-              <label class="seg"><input type="radio" name="kids" value="yes"><span>Yes</span></label>
-              <label class="seg"><input type="radio" name="kids" value="no" checked><span>No</span></label>
-            </fieldset>
-            <p class="form-err" role="alert" hidden>Please add your name and a valid email.</p>
-            <button class="btn btn-accent btn-wide" type="submit">Save my seat</button>
-          </form>
-          <div class="thanks" hidden tabindex="-1">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22"/><path d="M14 25l7 7 13-15"/></svg>
-            <h3 class="display h3">See you <em>Sunday</em>, <span data-name></span>.</h3>
-            <p data-msg></p>
-            <button class="link-btn" type="button" data-reset>Change my details</button>
+      <div class="form-card card" id="new">
+        <form class="newform" novalidate>
+          <h3 class="h3">I'm new, save me a seat</h3>
+          <p class="form-sub">We will meet you at the front door and walk you to kids check-in.</p>
+          <div class="row2">
+            <div class="field"><label for="nf-name">Your name</label><input id="nf-name" name="name" autocomplete="name" required aria-describedby="nf-name-err"><p class="err" id="nf-name-err" hidden>Please add your name.</p></div>
+            <div class="field"><label for="nf-email">Email</label><input id="nf-email" name="email" type="email" autocomplete="email" required aria-describedby="nf-email-err"><p class="err" id="nf-email-err" hidden>Please add a valid email.</p></div>
           </div>
+          <div class="row2">
+            <div class="field"><label for="visit-date">Which Sunday?</label><select id="visit-date" name="date"></select></div>
+            <div class="field"><label for="nf-service">Service</label>
+              <select id="nf-service" name="service">
+                <option>9:00 AM</option>
+                <option>11:00 AM</option>
+                <option>11:00 AM Vietnamese</option>
+              </select>
+            </div>
+          </div>
+          <fieldset class="kids">
+            <legend>Bringing kids?</legend>
+            <div class="seg">
+              <label><input type="radio" name="kids" value="yes"><span>Yes</span></label>
+              <label><input type="radio" name="kids" value="no" checked><span>No</span></label>
+            </div>
+          </fieldset>
+          <button class="btn btn-brand btn-wide btn-lg" type="submit">Save my seat</button>
+        </form>
+        <div class="thanks" hidden tabindex="-1">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22"/><path d="M14 25l7 7 13-15"/></svg>
+          <h3 class="h3">See you Sunday, <span data-name></span>!</h3>
+          <p data-msg></p>
+          <button class="text-btn" type="button" data-reset>Change my details</button>
         </div>
       </div>
     </div>
@@ -192,49 +190,46 @@
 </section>
 
 <!-- WATCH -->
-<section class="watch section" id="watch" aria-labelledby="watch-title">
+<section class="section dark watch" id="watch" aria-labelledby="watch-title">
   <div class="wrap">
-    <div class="sec-head sec-head-row">
+    <div class="sec-head sec-row">
       <div>
-        <p class="eyebrow">Watch &amp; listen</p>
-        <h2 id="watch-title" class="display h2">Catch up on <em>Sunday.</em></h2>
+        <p class="eyebrow eyebrow-light">Watch &amp; listen</p>
+        <h2 id="watch-title" class="h2">Catch up on Sunday</h2>
       </div>
-      <div class="live" aria-live="polite">
+      <div class="live" aria-live="off">
         <span class="live-dot" aria-hidden="true"></span>
         <span class="live-label">Next live stream in</span>
-        <span class="count" id="count"><span><b data-u="d">0</b><i>days</i></span><span><b data-u="h">00</b><i>hrs</i></span><span><b data-u="m">00</b><i>min</i></span><span><b data-u="s">00</b><i>sec</i></span></span>
+        <span class="count" id="count"><span><b data-u="d">0</b> d</span><span><b data-u="h">00</b> h</span><span><b data-u="m">00</b> m</span><span><b data-u="s">00</b> s</span></span>
       </div>
     </div>
-
     <div class="watch-grid">
       <div class="player" id="player">
-        <button class="poster" type="button" aria-label="Play sermon: A Seat with Your Name on It">
+        <button class="poster" type="button" aria-label="Play sermon: A Seat with Your Name on It, 38:12">
           <img src="img/sermon.webp" loading="lazy" width="1500" height="1000" alt="">
-          <span class="poster-shade" aria-hidden="true"></span>
-          <span class="poster-title" aria-hidden="true"><small>Room at the Table · Part 3</small>A Seat with Your Name on It</span>
           <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
-          <span class="dur" aria-hidden="true">38:12</span>
+          <span class="dur">38:12</span>
         </button>
-        <div class="bar" aria-hidden="true">
-          <button class="bar-btn" type="button" tabindex="-1" data-toggle><svg viewBox="0 0 24 24"><path class="i-pause" d="M7 5h3v14H7zM14 5h3v14h-3z"/><path class="i-play" d="M8 5.5v13l11-6.5z"/></svg></button>
+        <div class="bar">
+          <button class="bar-btn" type="button" data-toggle aria-label="Pause"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pause" d="M7 5h3v14H7zM14 5h3v14h-3z"/><path class="i-play" d="M8 5.5v13l11-6.5z"/></svg></button>
           <span class="bar-time"><span data-t>0:00</span> / 38:12</span>
-          <span class="bar-track"><span class="bar-fill"></span></span>
-          <span class="bar-note">Demo player. Your YouTube sermon plays here.</span>
+          <span class="bar-track" aria-hidden="true"><span class="bar-fill"></span></span>
         </div>
+        <p class="bar-note">Demo player. On your site this plays the sermon from YouTube.</p>
       </div>
-      <div class="sermon-meta">
-        <p class="eyebrow">Latest message · Nov 15, 2026</p>
-        <h3 class="display h3">A Seat with Your Name on It</h3>
-        <p class="meta-line">Pastor Daniel Tran · Luke 14:15–24</p>
+      <div class="sermon">
+        <p class="meta">Latest message · Nov 15, 2026</p>
+        <h3 class="h3">A Seat with Your Name on It</h3>
+        <p class="meta-line">Room at the Table, part 3 · Pastor Daniel Tran · Luke 14:15-24</p>
         <p>Jesus tells a story about a dinner where the invited guests make excuses, so the host fills the room with everyone else. This week: what it means that the table was set for you before you ever said yes.</p>
         <ul class="recent">
-          <li><a href="#watch"><span class="r-date">Nov 8</span><span class="r-title">When the House Is Full</span><span class="r-len">41 min</span></a></li>
-          <li><a href="#watch"><span class="r-date">Nov 1</span><span class="r-title">Bread for the Road</span><span class="r-len">36 min</span></a></li>
-          <li><a href="#watch"><span class="r-date">Oct 25</span><span class="r-title">The Long Way Home</span><span class="r-len">39 min</span></a></li>
+          <li><a href="#player"><span class="r-title">When the House Is Full</span><span class="r-meta">Nov 8 · 41 min</span></a></li>
+          <li><a href="#player"><span class="r-title">Bread for the Road</span><span class="r-meta">Nov 1 · 36 min</span></a></li>
+          <li><a href="#player"><span class="r-title">The Long Way Home</span><span class="r-meta">Oct 25 · 39 min</span></a></li>
         </ul>
         <div class="listen">
-          <a class="pill-link" href="#watch"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .6 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-4.8 31 31 0 0 0-.4-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg>YouTube</a>
-          <a class="pill-link" href="#watch"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm5 15.9a.7.7 0 0 1-1 .2c-2.7-1.6-6-2-10-1.1a.7.7 0 1 1-.3-1.4c4.3-1 8-.6 11 1.3.3.2.4.6.3 1zm1.3-3a.9.9 0 0 1-1.2.3c-3-1.9-7.7-2.4-11.3-1.3a.9.9 0 1 1-.5-1.7c4.1-1.2 9.2-.6 12.7 1.5.4.3.5.8.3 1.2zm.1-3.1C14.8 8.6 8.8 8.4 5.4 9.5a1 1 0 1 1-.6-2c4-1.2 10.6-1 14.7 1.5a1 1 0 0 1-1 1.8z"/></svg>Podcast</a>
+          <a class="btn btn-sm btn-outline-light" href="#player">YouTube</a>
+          <a class="btn btn-sm btn-outline-light" href="#player">Podcast</a>
         </div>
       </div>
     </div>
@@ -242,121 +237,120 @@
 </section>
 
 <!-- MINISTRIES -->
-<section class="ministries section" id="ministries" aria-labelledby="min-title">
+<section class="section ministries" id="ministries" aria-labelledby="min-title">
   <div class="wrap">
-    <div class="sec-head center">
+    <div class="sec-head">
       <p class="eyebrow">Ministries</p>
-      <h2 id="min-title" class="display h2">Room for every <em>age.</em></h2>
+      <h2 id="min-title" class="h2">Room for every age</h2>
     </div>
-    <ul class="min-row">
+    <ul class="min-grid">
       <li class="min">
-        <figure class="oval reveal"><img src="img/kids.webp" loading="lazy" style="object-position:72% 50%" width="900" height="600" alt="Two boys laughing and splashing in a kiddie pool"></figure>
-        <h3>Kids</h3>
-        <p>Nursery to 5th grade during both Sunday services. Secure check‑in.</p>
+        <img src="img/kids.webp" width="900" height="600" loading="lazy" alt="Two boys laughing and splashing in a kiddie pool" style="object-position:70% 50%">
+        <div><h3>Kids</h3><p>Nursery to 5th grade during both Sunday services, with secure check-in.</p></div>
       </li>
       <li class="min">
-        <figure class="oval reveal" style="--d:.08s"><img src="img/students.webp" loading="lazy" style="object-position:40% 50%" width="900" height="600" alt="A group of high school friends smiling together outdoors"></figure>
-        <h3>Students</h3>
-        <p>6th to 12th grade. Wednesdays at 7 PM, plus summer camp.</p>
+        <img src="img/students.webp" width="900" height="600" loading="lazy" alt="A group of high school friends smiling together outdoors" style="object-position:40% 50%">
+        <div><h3>Students</h3><p>6th to 12th grade. Wednesdays at 7 PM, plus summer camp.</p></div>
       </li>
       <li class="min">
-        <figure class="oval reveal" style="--d:.16s"><img src="img/women.webp" loading="lazy" width="900" height="507" alt="Four women hugging and laughing outdoors"></figure>
-        <h3>Women</h3>
-        <p>Tuesday morning Bible study and a brunch on the first Saturday.</p>
+        <img src="img/women.webp" width="900" height="507" loading="lazy" alt="Four women hugging and laughing outdoors">
+        <div><h3>Women</h3><p>Tuesday morning Bible study and a brunch on the first Saturday.</p></div>
       </li>
       <li class="min">
-        <figure class="oval reveal" style="--d:.24s"><img src="img/men.webp" loading="lazy" style="object-position:52% 50%" width="900" height="600" alt="Two men sharing a big hug after a Sunday service"></figure>
-        <h3>Men</h3>
-        <p>Saturday 7 AM breakfast, then a few hours serving the neighborhood.</p>
+        <img src="img/men.webp" width="900" height="600" loading="lazy" alt="Two men sharing a big hug after a Sunday service">
+        <div><h3>Men</h3><p>Saturday 7 AM breakfast, then a few hours serving the neighborhood.</p></div>
       </li>
       <li class="min">
-        <figure class="oval reveal" style="--d:.32s"><img src="img/groups.webp" loading="lazy" width="900" height="600" alt="A small group talking around a patio table"></figure>
-        <h3>Life Groups</h3>
-        <p>Twelve groups in homes across Orlando, most weeknights.</p>
+        <img src="img/groups.webp" width="900" height="600" loading="lazy" alt="A small group talking around a patio table">
+        <div><h3>Life Groups</h3><p>Twelve groups in homes across Orlando, most weeknights.</p></div>
       </li>
     </ul>
   </div>
 </section>
 
-<!-- LIFE STRIP -->
-<section class="life" aria-labelledby="life-title">
-  <div class="wrap life-head">
-    <h2 id="life-title" class="display h2">This is what <span class="nb">Sundays <em>look</em> like.</span></h2>
-    <p>No stage lights, no fog machine. Just a few hundred people who keep showing up for each other.</p>
-  </div>
-  <div class="life-scroll" tabindex="0" aria-label="Photos from life at Grace Harbor, scrollable">
-    <figure class="lf lf-1 reveal"><img src="img/life-1.webp" loading="lazy" width="800" height="533" alt="Friends laughing together in the lobby"></figure>
-    <figure class="lf lf-2 reveal"><img src="img/family.webp" loading="lazy" width="1000" height="800" alt="A family sharing lunch at home"><figcaption>The Nguyen family, after second service</figcaption></figure>
-    <figure class="lf lf-3 reveal"><img src="img/life-4.webp" loading="lazy" width="800" height="533" alt="Older women laughing and holding hands"></figure>
-    <figure class="lf lf-4 reveal"><img src="img/life-10.webp" loading="lazy" width="800" height="533" alt="Volunteers cooking together in a kitchen"><figcaption>Wednesday supper crew</figcaption></figure>
-    <figure class="lf lf-5 reveal"><img src="img/life-7.webp" loading="lazy" width="1000" height="667" alt="Two older men laughing over coffee"></figure>
-    <figure class="lf lf-6 reveal"><img src="img/life-8.webp" loading="lazy" width="800" height="533" alt="Two friends reading the Bible on the grass"></figure>
-    <figure class="lf lf-7 reveal"><img src="img/life-3.webp" loading="lazy" width="800" height="533" alt="A young family walking among trees"></figure>
+<!-- LIFE -->
+<section class="section soft life" aria-labelledby="life-title">
+  <div class="wrap">
+    <div class="sec-head sec-row">
+      <div>
+        <p class="eyebrow">Our community</p>
+        <h2 id="life-title" class="h2">Doing life together</h2>
+      </div>
+      <p class="sec-note">No stage lights, no fog machine. Just a few hundred people who keep showing up for each other.</p>
+    </div>
+    <div class="life-grid">
+      <img class="lg-big" src="img/family.webp" width="1000" height="800" loading="lazy" alt="A family sharing lunch at home after church">
+      <img src="img/life-1.webp" width="800" height="533" loading="lazy" alt="Friends laughing together in the lobby">
+      <img src="img/life-4.webp" width="800" height="533" loading="lazy" alt="Older women laughing and holding hands">
+      <img src="img/life-10.webp" width="800" height="533" loading="lazy" alt="Volunteers cooking a Wednesday supper together">
+      <img src="img/life-7.webp" width="1000" height="667" loading="lazy" alt="Two older men laughing over coffee">
+    </div>
   </div>
 </section>
 
 <!-- EVENTS -->
-<section class="events section" id="events" aria-labelledby="events-title">
+<section class="section events" id="events" aria-labelledby="events-title">
   <div class="wrap">
-    <div class="sec-head sec-head-row">
+    <div class="sec-head sec-row">
       <div>
         <p class="eyebrow">Events</p>
-        <h2 id="events-title" class="display h2">Coming up at <em>Grace.</em></h2>
+        <h2 id="events-title" class="h2">Coming up</h2>
       </div>
       <a class="text-link" href="#events">Full calendar</a>
     </div>
     <div class="ev-grid">
-      <article class="ev ev-feature">
-        <figure class="ev-img reveal"><img src="img/friendsgiving.webp" loading="lazy" width="1100" height="733" alt="A long table full of people sharing a meal"></figure>
+      <article class="ev-feature card">
+        <img src="img/friendsgiving.webp" width="1100" height="733" loading="lazy" alt="A long table full of people sharing a meal">
         <div class="ev-body">
-          <p class="ev-date"><b>29</b><span>Nov · Sun</span></p>
-          <div>
-            <h3 class="display h3">Friendsgiving Potluck</h3>
-            <p class="ev-when">12:30 PM · Fellowship Hall</p>
-            <p>Bring a dish from your family's table. We will carve the turkeys and set out the kids' table. Newcomers eat first.</p>
-          </div>
+          <p class="ev-date">Sunday, Nov 29 · 12:30 PM</p>
+          <h3 class="h3">Friendsgiving Potluck</h3>
+          <p>Bring a dish from your family's table. We will carve the turkeys and set out the kids' table. Newcomers eat first. Fellowship Hall.</p>
         </div>
       </article>
-      <article class="ev ev-text">
-        <p class="ev-date"><b>24</b><span>Dec · Thu</span></p>
-        <h3 class="display h3">Christmas Eve <em>Candlelight</em></h3>
-        <p class="ev-when">5:00 PM &amp; 7:00 PM · Both in English, carols in Vietnamese at 7</p>
-        <p>Lessons, carols and candles. Childcare for under 4s at the 5:00.</p>
-      </article>
-      <article class="ev ev-small">
-        <figure class="ev-img reveal"><img src="img/baptism.webp" loading="lazy" width="900" height="601" alt="People celebrating a baptism in a pool"></figure>
-        <p class="ev-date"><b>10</b><span>Jan · Sun</span></p>
-        <h3 class="display h3">Baptism Sunday</h3>
-        <p class="ev-when">During both services</p>
-        <p>Ready to take the step? Join a short class on Jan 3.</p>
-      </article>
-      <article class="ev ev-small">
-        <figure class="ev-img reveal"><img src="img/lunar.webp" loading="lazy" width="1100" height="733" alt="A multigenerational crowd celebrating together in festive red clothes"></figure>
-        <p class="ev-date"><b>06</b><span>Feb · Sat</span></p>
-        <h3 class="display h3">Lunar New Year Celebration</h3>
-        <p class="ev-when">5:00 PM · Courtyard</p>
-        <p>Rice cakes, a lion dance, and red envelopes for the kids. Bring your grandparents.</p>
-      </article>
+      <ul class="ev-list">
+        <li class="ev-row">
+          <div class="ev-thumb ev-thumb-text" aria-hidden="true"><b>24</b><span>Dec</span></div>
+          <div>
+            <p class="ev-date">Thursday, Dec 24 · 5:00 &amp; 7:00 PM</p>
+            <h3>Christmas Eve Candlelight</h3>
+            <p>Lessons, carols and candles. Carols in Vietnamese at the 7:00 service. Childcare for under 4s at 5:00.</p>
+          </div>
+        </li>
+        <li class="ev-row">
+          <img class="ev-thumb" src="img/baptism.webp" width="900" height="601" loading="lazy" alt="People celebrating a baptism in a pool">
+          <div>
+            <p class="ev-date">Sunday, Jan 10 · Both services</p>
+            <h3>Baptism Sunday</h3>
+            <p>Ready to take the step? Join the short class on Jan 3.</p>
+          </div>
+        </li>
+        <li class="ev-row">
+          <img class="ev-thumb" src="img/lunar.webp" width="1100" height="733" loading="lazy" alt="A multigenerational crowd celebrating together">
+          <div>
+            <p class="ev-date">Saturday, Feb 6 · 5:00 PM</p>
+            <h3>Lunar New Year Celebration</h3>
+            <p>Rice cakes, a lion dance, and red envelopes for the kids. Bring your grandparents.</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
 
 <!-- GIVE -->
-<section class="give-band" id="give" aria-labelledby="give-title-band">
+<section class="give-band" id="give" aria-labelledby="give-title">
   <div class="wrap give-in">
     <div>
-      <p class="eyebrow">Give</p>
-      <h2 id="give-title-band" class="display h2">Generosity <em>grows</em> here.</h2>
+      <p class="eyebrow eyebrow-light">Give</p>
+      <h2 id="give-title" class="h2">Generosity changes our city</h2>
       <p>Every gift keeps the doors open on Sunday, the Kids rooms stocked, and groceries moving to families around College Park. Thank you for giving.</p>
+      <button class="btn btn-white btn-lg" type="button" data-give>Give online</button>
     </div>
-    <div class="give-ways">
-      <button class="btn btn-accent btn-lg" type="button" data-give>Give online</button>
-      <ul class="ways">
-        <li><b>Text to give</b><span>Text any amount to (407) 555-0142</span></li>
-        <li><b>Church app</b><span>Search "Grace Harbor" in the Tithely app</span></li>
-        <li><b>In person</b><span>Giving box by the courtyard doors</span></li>
-      </ul>
-    </div>
+    <ul class="ways">
+      <li><b>Text to give</b><span>Text any amount to (407) 555-0142</span></li>
+      <li><b>Church app</b><span>Search "Grace Harbor" in the Tithely app</span></li>
+      <li><b>In person</b><span>Giving box by the courtyard doors</span></li>
+    </ul>
   </div>
 </section>
 
@@ -364,33 +358,31 @@
 <section class="section pb" aria-label="Prayer and beliefs">
   <div class="wrap pb-grid">
     <div class="prayer" id="prayer">
-      <figure class="prayer-img reveal"><img src="img/prayer.webp" loading="lazy" width="1100" height="770" alt="A woman praying with her hands together during worship"></figure>
-      <div class="form-card">
+      <p class="eyebrow">Prayer</p>
+      <h2 class="h2">How can we pray for you?</h2>
+      <p class="form-sub">Our prayer team meets Wednesdays at 7 PM and prays over every request by name.</p>
+      <div class="form-card card">
         <form class="prayform" novalidate>
-          <p class="eyebrow">Prayer</p>
-          <h2 class="display h2">How can we <em>pray</em> for you?</h2>
-          <p class="form-sub">Our prayer team meets Wednesdays at 7 PM and prays over every request by name.</p>
           <div class="row2">
-            <label class="field"><span>Name <i>(optional)</i></span><input name="name" autocomplete="name"></label>
-            <label class="field"><span>Email <i>(optional)</i></span><input name="email" type="email" autocomplete="email"></label>
+            <div class="field"><label for="pf-name">Name <span class="opt">(optional)</span></label><input id="pf-name" name="name" autocomplete="name"></div>
+            <div class="field"><label for="pf-email">Email <span class="opt">(optional)</span></label><input id="pf-email" name="email" type="email" autocomplete="email"></div>
           </div>
-          <label class="field"><span>Your request</span><textarea name="req" rows="4" required placeholder="Share as much or as little as you like"></textarea></label>
+          <div class="field"><label for="pf-req">Your request</label><textarea id="pf-req" name="req" rows="4" required aria-describedby="pf-req-err"></textarea><p class="err" id="pf-req-err" hidden>Write a few words so we know how to pray.</p></div>
           <label class="check"><input type="checkbox" name="private"><span>Keep this between the pastors only</span></label>
-          <p class="form-err" role="alert" hidden>Write a few words so we know how to pray.</p>
-          <button class="btn btn-dark" type="submit">Send prayer request</button>
+          <button class="btn btn-dark btn-lg" type="submit">Send prayer request</button>
         </form>
         <div class="thanks" hidden tabindex="-1">
           <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22"/><path d="M14 25l7 7 13-15"/></svg>
-          <h3 class="display h3">We are <em>praying</em> with you.</h3>
-          <p data-msg>Your request is with our prayer team. If you left an email, a pastor may reach out this week.</p>
-          <button class="link-btn" type="button" data-reset>Send another</button>
+          <h3 class="h3">We are praying with you.</h3>
+          <p>Your request is with our prayer team. If you left an email, a pastor may reach out this week.</p>
+          <button class="text-btn" type="button" data-reset>Send another</button>
         </div>
       </div>
     </div>
 
     <div class="beliefs" id="beliefs">
       <p class="eyebrow">Our beliefs</p>
-      <h2 class="display h2">What we <em>believe.</em></h2>
+      <h2 class="h2">What we believe</h2>
       <ol class="b-list">
         <li><h3>One God</h3><p>Father, Son and Holy Spirit, who made the world and loves it.</p></li>
         <li><h3>The Bible</h3><p>God's word to us: true, trustworthy, and the final word on how we live.</p></li>
@@ -404,35 +396,31 @@
 </section>
 
 <!-- STAFF -->
-<section class="staff section" id="staff" aria-labelledby="staff-title">
+<section class="section soft staff" id="staff" aria-labelledby="staff-title">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Our team</p>
-      <h2 id="staff-title" class="display h2">The people you will <em>meet.</em></h2>
+      <h2 id="staff-title" class="h2">The people you will meet</h2>
     </div>
     <ul class="staff-grid">
-      <li class="person"><figure class="arch reveal"><img src="img/staff-daniel.webp" loading="lazy" width="560" height="700" alt="Daniel Tran"></figure><h3>Daniel Tran</h3><p>Lead Pastor</p></li>
-      <li class="person"><figure class="arch reveal" style="--d:.06s"><img src="img/staff-minh.webp" loading="lazy" width="560" height="700" alt="Minh Nguyen"></figure><h3>Minh Nguyen</h3><p>Pastor, Vietnamese Ministry</p></li>
-      <li class="person"><figure class="arch reveal" style="--d:.12s"><img src="img/staff-linh.webp" loading="lazy" width="560" height="700" alt="Linh Pham"></figure><h3>Linh Pham</h3><p>Women &amp; Care</p></li>
-      <li class="person"><figure class="arch reveal" style="--d:.18s"><img src="img/staff-david.webp" loading="lazy" width="560" height="700" alt="David Moreno"></figure><h3>David Moreno</h3><p>Worship &amp; Arts</p></li>
-      <li class="person"><figure class="arch reveal" style="--d:.24s"><img src="img/staff-josh.webp" loading="lazy" width="560" height="700" alt="Josh Hoang"></figure><h3>Josh Hoang</h3><p>Students</p></li>
-      <li class="person"><figure class="arch reveal" style="--d:.30s"><img src="img/staff-anna.webp" loading="lazy" width="560" height="700" alt="Anna Vo"></figure><h3>Anna Vo</h3><p>Kids Director</p></li>
+      <li><img src="img/staff-daniel.webp" width="560" height="700" loading="lazy" alt="Daniel Tran"><h3>Daniel Tran</h3><p>Lead Pastor</p></li>
+      <li><img src="img/staff-minh.webp" width="560" height="700" loading="lazy" alt="Minh Nguyen"><h3>Minh Nguyen</h3><p>Pastor, Vietnamese Ministry</p></li>
+      <li><img src="img/staff-linh.webp" width="560" height="700" loading="lazy" alt="Linh Pham"><h3>Linh Pham</h3><p>Women &amp; Care</p></li>
+      <li><img src="img/staff-david.webp" width="560" height="700" loading="lazy" alt="David Moreno"><h3>David Moreno</h3><p>Worship &amp; Arts</p></li>
+      <li><img src="img/staff-josh.webp" width="560" height="700" loading="lazy" alt="Josh Hoang"><h3>Josh Hoang</h3><p>Students</p></li>
+      <li><img src="img/staff-anna.webp" width="560" height="700" loading="lazy" alt="Anna Vo"><h3>Anna Vo</h3><p>Kids Director</p></li>
     </ul>
   </div>
 </section>
 
 <!-- LOCATION -->
-<section class="location section" id="location" aria-labelledby="loc-title">
+<section class="section location" id="location" aria-labelledby="loc-title">
   <div class="wrap loc-grid">
     <div class="loc-copy">
       <p class="eyebrow">Location</p>
-      <h2 id="loc-title" class="display h2">Find us by the <em>lake.</em></h2>
-      <address>
-        <b>Grace Harbor Church</b><br>
-        2216 Edgewater Drive<br>
-        Orlando, FL 32804
-      </address>
-      <dl class="times times-compact">
+      <h2 id="loc-title" class="h2">Find us by Lake Adair</h2>
+      <address><b>Grace Harbor Church</b><br>2216 Edgewater Drive<br>Orlando, FL 32804</address>
+      <dl class="times">
         <div><dt>Sunday</dt><dd>9:00 AM &amp; 11:00 AM</dd></div>
         <div><dt>Vietnamese</dt><dd>Sunday 11:00 AM, Chapel</dd></div>
         <div><dt>Prayer night</dt><dd>Wednesday 7:00 PM</dd></div>
@@ -441,8 +429,8 @@
       <p class="contact-line">(407) 555-0148 · hello@graceharbororlando.org</p>
       <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Edgewater+Drive+Orlando+FL+32804" target="_blank" rel="noopener">Get directions</a>
     </div>
-    <figure class="map reveal">
-      <img src="img/map.webp" loading="lazy" width="1120" height="600" alt="Map of College Park, Orlando, showing Grace Harbor Church on Edgewater Drive near Lake Adair">
+    <figure class="map">
+      <img src="img/map.webp" width="1120" height="600" loading="lazy" alt="Map of College Park, Orlando, showing Grace Harbor Church on Edgewater Drive near Lake Adair">
       <span class="map-pin" aria-hidden="true"><svg viewBox="0 0 40 52"><path d="M20 51s17-17.5 17-30A17 17 0 0 0 3 21c0 12.5 17 30 17 30z"/><circle cx="20" cy="20" r="6.5"/></svg><b>Grace Harbor</b></span>
       <figcaption>Map data © OpenStreetMap contributors</figcaption>
     </figure>
@@ -451,16 +439,16 @@
 
 </main>
 
-<footer class="foot">
+<footer class="foot" id="foot">
   <div class="wrap foot-in">
     <div class="foot-brand">
-      <p class="foot-word display">Grace <em>Harbor</em></p>
-      <p>A church family in College Park, Orlando.<br>Sundays 9:00 &amp; 11:00 AM. Vietnamese service 11:00&nbsp;AM.</p>
+      <p class="foot-name">Grace Harbor Church</p>
+      <p>2216 Edgewater Drive, Orlando, FL 32804<br>Sundays 9:00 &amp; 11:00 AM · Vietnamese service 11:00 AM</p>
       <div class="socials">
         <a href="#top" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" class="fill"/></svg></a>
         <a href="#top" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg></a>
         <a href="#top" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9v6l5-3z" class="fill"/></svg></a>
-        <a href="#top" aria-label="Spotify podcast"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M7.5 9.5c3-1 6.5-.7 9 .8M8 12.6c2.5-.7 5.3-.4 7.4.8M8.6 15.4c2-.5 4-.3 5.7.6"/></svg></a>
+        <a href="#top" aria-label="Podcast"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M7.5 9.5c3-1 6.5-.7 9 .8M8 12.6c2.5-.7 5.3-.4 7.4.8M8.6 15.4c2-.5 4-.3 5.7.6"/></svg></a>
       </div>
     </div>
     <nav class="foot-links" aria-label="Footer">
@@ -474,8 +462,8 @@
       <a href="#staff">Our Team</a>
     </nav>
     <div class="contact-ha" id="contact-ha">
-      <p class="eyebrow">About this demo</p>
-      <p class="ch-title display">Want this for your <em>church?</em></p>
+      <p class="eyebrow eyebrow-light">About this demo</p>
+      <p class="ch-title">Want this for your church?</p>
       <p>Grace Harbor is a fictional church. This site is a design demo by Ha Le. Email <a href="mailto:halevanthien@gmail.com">halevanthien@gmail.com</a> and we can build one around your own people, photos and Sundays.</p>
     </div>
   </div>
@@ -485,42 +473,42 @@
   </div>
 </footer>
 
-<a class="demo-badge" href="#contact-ha">Demo by Ha Le · <span>get a site like this</span></a>
+<a class="demo-badge" href="#contact-ha">Demo by Ha Le</a>
 
 <!-- TITHELY-STYLE GIVING MODAL -->
 <dialog class="give-modal" id="give-modal" aria-labelledby="gm-title">
   <div class="gm">
     <div class="gm-head">
-      <span class="gm-logo" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="currentColor"/><path d="M11.5 32V19a8.5 8.5 0 0 1 17 0v13" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M20 15v11M15.8 19.4h8.4" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg></span>
+      <svg class="gm-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="var(--brand)"/><path d="M11.5 32V19a8.5 8.5 0 0 1 17 0v13" fill="none" stroke="#fff" stroke-width="3"/><path d="M20 14.5v11M15.6 19h8.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>
       <div><p class="gm-org" id="gm-title">Grace Harbor Church</p><p class="gm-sub">Orlando, FL</p></div>
-      <button class="gm-close" type="button" aria-label="Close giving form" data-close><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <button class="gm-close" type="button" aria-label="Close giving form" data-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
     </div>
     <form class="gm-form" novalidate>
-      <label class="gm-amount"><span class="sr">Amount in US dollars</span><span class="cur" aria-hidden="true">$</span><input id="gm-amt" name="amount" inputmode="decimal" autocomplete="off" value="50"></label>
+      <label class="gm-amount" for="gm-amt"><span class="sr">Amount in US dollars</span><span class="cur" aria-hidden="true">$</span><input id="gm-amt" name="amount" inputmode="decimal" autocomplete="off" value="50" aria-describedby="gm-err"></label>
       <div class="gm-chips" role="group" aria-label="Quick amounts">
-        <button type="button" data-amt="25">$25</button>
+        <button type="button" data-amt="25" aria-pressed="false">$25</button>
         <button type="button" data-amt="50" aria-pressed="true">$50</button>
-        <button type="button" data-amt="100">$100</button>
-        <button type="button" data-amt="250">$250</button>
-        <button type="button" data-amt="500">$500</button>
+        <button type="button" data-amt="100" aria-pressed="false">$100</button>
+        <button type="button" data-amt="250" aria-pressed="false">$250</button>
+        <button type="button" data-amt="500" aria-pressed="false">$500</button>
       </div>
-      <label class="gm-field"><span>Give to</span>
-        <select name="fund">
+      <div class="gm-field"><label for="gm-fund">Give to</label>
+        <select id="gm-fund" name="fund">
           <option>General Fund</option>
           <option>Missions</option>
           <option>Building Fund</option>
         </select>
-      </label>
+      </div>
       <fieldset class="gm-freq">
         <legend>How often</legend>
         <div class="gm-seg">
-        <label><input type="radio" name="freq" value="once" checked><span>One time</span></label>
-        <label><input type="radio" name="freq" value="weekly"><span>Weekly</span></label>
-        <label><input type="radio" name="freq" value="monthly"><span>Monthly</span></label>
+          <label><input type="radio" name="freq" value="once" checked><span>One time</span></label>
+          <label><input type="radio" name="freq" value="weekly"><span>Weekly</span></label>
+          <label><input type="radio" name="freq" value="monthly"><span>Monthly</span></label>
         </div>
       </fieldset>
       <label class="gm-cover"><input type="checkbox" name="cover" checked><span>Add <b data-fee>$1.75</b> to cover processing fees so 100% reaches the church</span></label>
-      <p class="form-err" role="alert" hidden>Enter an amount of at least $1.</p>
+      <p class="err" id="gm-err" hidden>Enter an amount of at least $1.</p>
       <button class="gm-submit" type="submit">Give <span data-total>$51.75</span></button>
       <p class="gm-demo">Demo only. No payment is taken.</p>
     </form>

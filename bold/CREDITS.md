@@ -11,7 +11,7 @@ Northlight Church is fictional. All names, addresses, phone numbers and stats on
 ## Photos (Pexels License, free to use)
 | File | Photographer | Source |
 |---|---|---|
-| img/sermon.webp (shirt logo retouched) | Matheus Bertelli | https://www.pexels.com/photo/man-speaking-in-front-of-an-audience-with-microphone-29708270/ |
+| img/sermon-600.webp, img/th-sermon.webp (shirt logo retouched) | Matheus Bertelli | https://www.pexels.com/photo/man-speaking-in-front-of-an-audience-with-microphone-29708270/ |
 | img/kids.webp | Caleb Oquendo | https://www.pexels.com/photo/group-of-children-attending-indoor-event-39005987/ |
 
 | img/students.webp | Max Fischer | https://www.pexels.com/photo/a-girl-and-boys-eating-pizza-5212674/ |
@@ -23,7 +23,7 @@ Northlight Church is fictional. All names, addresses, phone numbers and stats on
 | img/ev-band.webp | Brett Sayles | https://www.pexels.com/photo/musicians-and-singers-on-stage-12044265/ |
 | img/ev-serve.webp | cottonbro studio | https://www.pexels.com/photo/people-preparing-food-rations-in-the-box-6590928/ |
 | img/ev-retreat.webp | Vitaly Gariev | https://www.pexels.com/photo/silhouette-of-group-celebrating-at-sunset-by-lake-36766894/ |
-| img/band.webp (series art) | Luis Quintero | https://www.pexels.com/photo/two-men-playing-electric-guitars-on-stage-2091374/ |
+| img/series-art.webp (grayscale crop) | Luis Quintero | https://www.pexels.com/photo/two-men-playing-electric-guitars-on-stage-2091374/ |
 | img/staff-1.webp | Joseph Eulo | https://www.pexels.com/photo/man-wearing-black-suit-on-white-background-12311572/ |
 | img/staff-2.webp | Olumide Adekunle | https://www.pexels.com/photo/stylish-portrait-of-a-smiling-young-man-38165826/ |
 | img/staff-3.webp | Bhargava Marripati | https://www.pexels.com/photo/man-in-black-crew-neck-shirt-5334146/ |
@@ -35,7 +35,7 @@ Northlight Church is fictional. All names, addresses, phone numbers and stats on
 - img/map-orlando.webp, img/map-nona.webp: © OpenStreetMap contributors (ODbL), tiles from tile.openstreetmap.org, darkened. Attribution is shown on the map.
 
 ## Fonts
-- Archivo (Omnibus-Type) and Instrument Sans, Google Fonts, SIL Open Font License.
+- Geist (Vercel), Google Fonts, SIL Open Font License.
 
 ## Code ideas
-- TV static flash, channel OSD and ambient glow in the sermon player come from Ha Le's shorts site (vanthienha199.github.io/shorts).
+- TV static flash and channel OSD in the sermon player come from Ha Le's shorts site (vanthienha199.github.io/shorts).

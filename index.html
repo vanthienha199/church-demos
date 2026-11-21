@@ -3,62 +3,149 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Church Website Designs by Ha Le</title>
-<meta name="description" content="Three church website designs: warm, bold and traditional. Plan a Visit, sermons, events and Tithely giving built in.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<title>Church Websites by Ha Le</title>
+<meta name="description" content="Three church website designs you can click through: warm, bold and traditional. Service times on the first screen, Plan a Visit, sermons, events, prayer and Tithely giving built in.">
+<meta name="theme-color" content="#ffffff">
 <style>
-:root{--bg:#f5efe6;--ink:#211c18;--muted:#5d544b;--line:#e2d8ca;--card:#fffaf3;--accent:#b4532a}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Instrument Sans",system-ui,sans-serif;padding:48px max(16px,env(safe-area-inset-left)) 64px max(16px,env(safe-area-inset-right))}
-main{max-width:1120px;margin:0 auto}
-.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 16px}
-h1{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:clamp(40px,7vw,80px);line-height:1.02;letter-spacing:-.02em;margin:0 0 24px;text-wrap:balance}
-h1 em{color:var(--accent)}
-.lede{max-width:62ch;color:var(--muted);margin:0 0 48px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
-a.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .18s ease-out,box-shadow .18s ease-out}
-a.card:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(0,0,0,.06),0 18px 40px rgba(60,40,20,.14)}
-a.card:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.card img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;display:block;border-bottom:1px solid var(--line)}
-.body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:6px;flex:1}
-.body h2{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:26px;margin:0}
-.tag{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
-.body p{margin:0;color:var(--muted);font-size:16px}
-.go{margin-top:auto;padding-top:12px;font-weight:600}
-.includes{margin:56px 0 0;padding:28px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
-.includes h3{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:24px;margin:0 0 12px}
-.includes ul{margin:0;padding-left:20px;columns:2 260px;color:var(--muted)}
-.contact{margin-top:32px;font-size:18px}
-.contact b{user-select:all}
-@media (prefers-reduced-motion:reduce){a.card{transition:none}a.card:hover{transform:none}}
+:root {
+  --bg: #ffffff; --soft: #f4f5f7; --line: #e3e5e8; --ink: #111418; --text: #2b2f36; --muted: #5b616b;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--font); -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-left)); }
+header.top { border-bottom: 1px solid var(--line); }
+.top-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; }
+.name { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); text-decoration: none; letter-spacing: -0.01em; }
+.top a.mail { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 8px; background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; }
+.top a.mail:hover { background: #2b2f36; }
+.intro { padding-top: 64px; padding-bottom: 40px; }
+.intro h1, .intro p { max-width: 760px; text-wrap: balance; }
+h1 { margin: 0 0 16px; color: var(--ink); font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.08; letter-spacing: -0.03em; font-weight: 750; }
+.intro p { margin: 0; color: var(--muted); font-size: 1.125rem; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; padding-bottom: 64px; }
+.demo { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #fff; transition: border-color .15s ease-out, box-shadow .15s ease-out; }
+.demo:hover { border-color: #c9cdd3; box-shadow: 0 6px 20px rgba(17,20,24,.08); }
+.shot { display: block; aspect-ratio: 16 / 10; background: var(--soft); border-bottom: 1px solid var(--line); }
+.shot img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.body { display: flex; flex-direction: column; gap: 8px; padding: 20px 20px 22px; flex: 1; }
+.tag { margin: 0; font-size: 13px; font-weight: 600; color: var(--muted); }
+.body h2 { margin: 0; font-size: 1.35rem; line-height: 1.2; color: var(--ink); letter-spacing: -0.015em; }
+.body p.desc { margin: 0; color: var(--muted); font-size: 16px; }
+.open { margin-top: auto; padding-top: 12px; }
+.open a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 8px; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 15px; transition: background-color .15s, color .15s; }
+.open a:hover { background: var(--ink); color: #fff; }
+.band { background: var(--soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 56px 0; }
+.band-in { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
+.band h2 { margin: 0; font-size: 1.6rem; line-height: 1.2; color: var(--ink); letter-spacing: -0.02em; }
+.list { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 32px; }
+.list li { padding-left: 26px; position: relative; }
+.list li::before { content: ""; position: absolute; left: 2px; top: .55em; width: 12px; height: 7px; border-left: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: rotate(-45deg); }
+.contact { padding: 56px 0 72px; }
+.contact h2 { margin: 0 0 8px; font-size: 1.6rem; color: var(--ink); letter-spacing: -0.02em; }
+.contact p { margin: 0 0 20px; color: var(--muted); max-width: 40em; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 8px; font: 600 16px var(--font); text-decoration: none; cursor: pointer; border: 1px solid var(--ink); }
+.btn-dark { background: var(--ink); color: #fff; }
+.btn-dark:hover { background: #2b2f36; }
+.btn-line { background: #fff; color: var(--ink); }
+.btn-line:hover { background: var(--soft); }
+footer { border-top: 1px solid var(--line); padding: 20px 0 28px; color: var(--muted); font-size: 14px; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr 1fr; } .band-in { grid-template-columns: 1fr; gap: 20px; } }
+@media (max-width: 640px) {
+  .intro { padding-top: 40px; padding-bottom: 28px; }
+  .intro p { text-wrap: pretty; }
+  .grid { grid-template-columns: 1fr; gap: 16px; padding-bottom: 48px; }
+  .list { grid-template-columns: 1fr; }
+  .band, .contact { padding: 40px 0; }
+  .top a.mail { padding: 0 14px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="name" href="./">Ha Le · Church websites</a>
+    <a class="mail" href="mailto:halevanthien@gmail.com">Email Ha</a>
+  </div>
+</header>
+
 <main>
-<p class="kicker">Church websites by Ha Le</p>
-<h1>A website your church <em>family</em> will actually use.</h1>
-<p class="lede">Three finished designs you can click through right now. Each one shows service times and your address on the first screen, a Plan a Visit page for newcomers, sermons with a live countdown, events, prayer requests and Tithely giving in one click. The churches are fictional; your site gets your name, photos and words.</p>
-<div class="grid">
-  <a class="card" href="grace/"><img src="previews/grace.jpg" alt="Grace Harbor Church demo, warm cream design with photos of people hugging" loading="lazy"><div class="body"><span class="tag">Warm and welcoming</span><h2>Grace Harbor</h2><p>For small and medium churches. Cream paper, real faces, a family feel.</p><span class="go">Open the demo &rarr;</span></div></a>
-  <a class="card" href="bold/"><img src="previews/bold.jpg" alt="Northlight Church demo, dark design with a worship video and huge headline" loading="lazy"><div class="body"><span class="tag">Bold and modern</span><h2>Northlight</h2><p>For growing, multi-campus churches. Worship video, campus switcher, live countdown.</p><span class="go">Open the demo &rarr;</span></div></a>
-  <a class="card" href="heritage/"><img src="previews/heritage.jpg" alt="St. Andrew's Fellowship Church demo, green and gold traditional design with a sanctuary photo" loading="lazy"><div class="body"><span class="tag">Traditional and reverent</span><h2>St. Andrew's</h2><p>For established congregations. Order of worship, history timeline, large text option.</p><span class="go">Open the demo &rarr;</span></div></a>
-</div>
-<section class="includes">
-<h3>Every site includes</h3>
-<ul>
-<li>Service times and address on the first screen</li>
-<li>Plan a Visit page with a newcomer form</li>
-<li>Sermons with a next live stream countdown</li>
-<li>Tithely giving popup on every page</li>
-<li>Events, ministries and prayer requests</li>
-<li>Staff, beliefs and a map</li>
-<li>Fast on phones, easy to read</li>
-<li>Your own domain and email setup</li>
-</ul>
-</section>
-<p class="contact">Want one for your church? Email <b>halevanthien@gmail.com</b></p>
+  <section class="wrap intro">
+    <h1>Church websites by Ha Le</h1>
+    <p>Three finished demo sites you can click through on your phone or computer. Each one puts service times and your address on the first screen and includes a Plan a Visit form, sermons with a live stream countdown, events, prayer requests and Tithely giving. The churches are fictional. Your site gets your own name, photos and words.</p>
+  </section>
+
+  <section class="wrap grid" aria-label="Demo sites">
+    <article class="demo">
+      <a class="shot" href="grace/" tabindex="-1" aria-hidden="true"><img src="previews/grace.jpg" width="960" height="600" alt="" loading="lazy"></a>
+      <div class="body">
+        <p class="tag">Warm and welcoming</p>
+        <h2>Grace Harbor Church</h2>
+        <p class="desc">For small and medium churches. Big photos of your people, a simple newcomer form, and giving in one tap.</p>
+        <p class="open"><a href="grace/">Open the Grace Harbor demo</a></p>
+      </div>
+    </article>
+    <article class="demo">
+      <a class="shot" href="bold/" tabindex="-1" aria-hidden="true"><img src="previews/bold.jpg" width="960" height="600" alt="" loading="lazy"></a>
+      <div class="body">
+        <p class="tag">Bold and modern</p>
+        <h2>Northlight Church</h2>
+        <p class="desc">For growing and multi-campus churches. Worship video, a campus switcher and a live countdown.</p>
+        <p class="open"><a href="bold/">Open the Northlight demo</a></p>
+      </div>
+    </article>
+    <article class="demo">
+      <a class="shot" href="heritage/" tabindex="-1" aria-hidden="true"><img src="previews/heritage.jpg" width="960" height="600" alt="" loading="lazy"></a>
+      <div class="body">
+        <p class="tag">Traditional and reverent</p>
+        <h2>St. Andrew's Fellowship</h2>
+        <p class="desc">For established congregations. Order of worship, a history timeline and a large text option.</p>
+        <p class="open"><a href="heritage/">Open the St. Andrew's demo</a></p>
+      </div>
+    </article>
+  </section>
+
+  <section class="band" aria-labelledby="inc-title">
+    <div class="wrap band-in">
+      <h2 id="inc-title">Every site includes</h2>
+      <ul class="list">
+        <li>Service times and address on the first screen</li>
+        <li>Plan a Visit section with a newcomer form</li>
+        <li>Latest sermon and a next live stream countdown</li>
+        <li>Tithely giving popup from every page</li>
+        <li>Events, ministries and prayer requests</li>
+        <li>Staff, beliefs and a map with directions</li>
+        <li>Fast on phones, readable for every age</li>
+        <li>Your own domain and email set up</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Want one for your church?</h2>
+    <p>Send your church name and current website (if you have one). I will reply with which design fits and what I need from you.</p>
+    <div class="row">
+      <a class="btn btn-dark" href="mailto:halevanthien@gmail.com">halevanthien@gmail.com</a>
+      <button class="btn btn-line" type="button" id="copy">Copy email</button>
+    </div>
+  </section>
 </main>
+
+<footer>
+  <div class="wrap">Demo churches, names and addresses are fictional. Photos are free-license from Unsplash.</div>
+</footer>
+<script>
+document.getElementById('copy').addEventListener('click', function () {
+  var b = this, done = function (t) { b.textContent = t; setTimeout(function () { b.textContent = 'Copy email'; }, 1600); };
+  if (navigator.clipboard) navigator.clipboard.writeText('halevanthien@gmail.com').then(function () { done('Copied'); }, function () { done('halevanthien@gmail.com'); });
+  else done('halevanthien@gmail.com');
+});
+</script>
 </body>
 </html>
